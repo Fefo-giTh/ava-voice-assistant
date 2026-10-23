@@ -1,0 +1,10 @@
+[project]
+name = "ava-backend"
+version = "0.1.0"
+requires-python = ">=3.12,<3.14"
+dependencies = [
+    "kokoro>=0.9",
+    "soundfile>=0.12",
+    "numpy>=1.24",
+    "mlx-whisper>=0.4.3",
+]
